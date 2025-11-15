@@ -1,5 +1,43 @@
 /* Default site-wide style */
 
+:root {
+	--text-color: black;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 15px 40px;
+
+	font-size: 20px;
+	background-color: lightblue;
+
+	nav {
+		display: inherit;
+		
+		a {
+			padding-inline: 15px;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+}
+
 body {
-	/* style */
-}	
+	color: var(--text-color);
+	margin: 0px;
+	padding: 0px;
+
+	#main {
+		padding: 20px;
+	}
+}
+
+/* body { */
+/* 	style */
+/* }	 */
